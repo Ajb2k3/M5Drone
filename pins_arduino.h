@@ -14,14 +14,14 @@
 static const uint8_t TX = 1;
 static const uint8_t RX = 3;
 
-//static const uint8_t SDA1 = 22; //Internal I2C
-//static const uint8_t SCL1 = 23; //Internal I2C
+static const uint8_t SDA1 = 22; //Internal I2C
+static const uint8_t SCL1 = 23; //Internal I2C
 
 //static const uint8_t SDA = 20;
 //static const uint8_t SCL = 24;
 
-static const uint8_t SDA = 12; //Grove Connector.
-static const uint8_t SCL = 13; //Grove Connector.
+static const uint8_t SDA0 = 12; //Grove Connector.
+static const uint8_t SCL0 = 13; //Grove Connector.
 
 static const uint8_t SS    = 5;
 static const uint8_t MOSI  = 23;
