@@ -14,14 +14,31 @@
 static const uint8_t TX = 1;
 static const uint8_t RX = 3;
 
+static const uint8_t SDA = 12; //Grove Connector.
+static const uint8_t SCL = 13; //Grove Connector.
 static const uint8_t SDA1 = 22; //Internal I2C
 static const uint8_t SCL1 = 23; //Internal I2C
 
-//static const uint8_t SDA = 20;
-//static const uint8_t SCL = 24;
+static const uint8_t LED = 14; //LED (when fitted!)
 
-static const uint8_t SDA0 = 12; //Grove Connector.
-static const uint8_t SCL0 = 13; //Grove Connector.
+static const uint8_t PDMd = 2; //PDM Data
+static const uint8_t PDMc = 2; //PDM Clock
+
+// OV2640 Pin Definition
+static const uint8_t HREF = 26;
+static const uint8_t VSYNC = 22;
+static const uint8_t RESET = 15;
+static const uint8_t SIOC = 23;  
+static const uint8_t SIOD = 25;  
+static const uint8_t D2 = 32; 
+static const uint8_t D3 = 35; 
+static const uint8_t D4 = 34; 
+static const uint8_t D5 = 5; 
+static const uint8_t D6 = 39; 
+static const uint8_t D7 = 18; 
+static const uint8_t D8 = 36; 
+static const uint8_t D9 = 19; 
+//End of OV2640 Pin Definition
 
 static const uint8_t SS    = 5;
 static const uint8_t MOSI  = 23;
